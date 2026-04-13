@@ -1,0 +1,73 @@
+const musicAPI = [
+  {
+    id: 1,
+    songName: "NGÀY MAI NGƯỜI TA LẤY CHỒNG",
+    songArtist: "VOI BẢN ĐÔN",
+    songSrc: "./Assets/songs/ngaymainguoitalaychong.mp3",
+    songAvatar: "./Assets/Images/image1.jpg",
+  },
+  {
+    id: 2,
+    songName: "YÊU NHƯ NGÀY YÊU CUỐI",
+    songArtist: "CÚN TÓC LÔ",
+    songSrc: "./Assets/songs/yeunhungayyeucuoi.mp3",
+    songAvatar: "./Assets/Images/image4.jpg",
+  },
+  {
+    id: 3,
+    songName: "QUÁ KHỨ CÒN LẠI GÌ",
+    songArtist: "HIPPO HAPPY",
+    songSrc: "./Assets/songs/quakhuconlaigi.mp3",
+    songAvatar: "./Assets/Images/image2.jpg",
+  },
+  {
+    id: 4,
+    songName: "LỬNG LƠ",
+    songArtist: "SỨA THUỶ TINH",
+    songSrc: "./Assets/songs/lunglo.mp3",
+    songAvatar: "./Assets/Images/image3.jpg",
+  },
+  {
+    id: 5,
+    songName: "RỜI BỎ",
+    songArtist: "VOI BẢN ĐÔN",
+    songSrc: "./Assets/songs/roibo.mp3",
+    songAvatar: "./Assets/Images/image6.jpg",
+  },
+  {
+    id: 6,
+    songName: "CHÂN ÁI",
+    songArtist: "O SEN",
+    songSrc: "./Assets/songs/chanai.mp3",
+    songAvatar: "./Assets/Images/image5.jpg",
+  },
+  {
+    id: 7,
+    songName: "ĐƯA EM TÌM ĐỘNG HOA VÀNG",
+    songArtist: "CÚ TÂY BẮC",
+    songSrc: "./Assets/songs/duaemtimdonghoavang.mp3",
+    songAvatar: "./Assets/Images/image7.jpg",
+  },
+  {
+    id: 8,
+    songName: "KIẾP NÀO CÓ YÊU NHAU",
+    songArtist: "PHƯỢNG HOÀNG LỬA",
+    songSrc: "./Assets/songs/kiepnaocoyeunhau.mp3",
+    songAvatar: "./Assets/Images/image8.jpg",
+  },
+  {
+    id: 9,
+    songName: "ANH CHƯA THƯƠNG EM ĐẾN VẬY ĐÂU",
+    songArtist: "LADY MÂY",
+    songSrc: "./Assets/songs/anhchuathuongemdenvaydau.mp3",
+    songAvatar: "./Assets/Images/image9.jpg",
+  },
+  {
+    id: 10,
+    songName: "BƯỚC QUA MÙA CÔ ĐƠN",
+    songArtist: "BÁO MẮT BIẾC",
+    songSrc: "./Assets/songs/buocquamuacodon.mp3",
+    songAvatar: "./Assets/Images/image10.jpg",
+  },
+];
+export default musicAPI;
