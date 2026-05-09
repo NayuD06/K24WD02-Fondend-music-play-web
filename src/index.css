@@ -1,21 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800&family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
 
 :root {
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: 'VT323', monospace;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #f8f2ff;
+  background:
+    radial-gradient(circle at top, rgba(255, 198, 83, 0.2), transparent 28%),
+    linear-gradient(180deg, #130f2b 0%, #090816 100%);
 }
 
 * {
   box-sizing: border-box;
 }
 
+html {
+  min-height: 100%;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(89, 200, 255, 0.22), transparent 18%),
+    radial-gradient(circle at 85% 18%, rgba(255, 101, 154, 0.2), transparent 20%),
+    linear-gradient(180deg, #130f2b 0%, #090816 100%);
+}
+
 body {
   margin: 0;
   min-height: 100svh;
-  background: #eec7d6;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%) -12px 0/24px 24px,
+    linear-gradient(225deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%) -12px 0/24px 24px,
+    linear-gradient(315deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%) 0 0/24px 24px,
+    linear-gradient(45deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%) 0 0/24px 24px,
+    linear-gradient(180deg, #130f2b 0%, #090816 100%);
 }
 
 #root {
@@ -25,6 +42,12 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Paytone One', sans-serif;
-  letter-spacing: 0.4px;
+  font-family: 'Press Start 2P', monospace;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+button,
+input {
+  font: inherit;
 }
